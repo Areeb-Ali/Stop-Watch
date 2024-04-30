@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.timer-display {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-btn {
+    background-color: green;
+    color: white;
+}
+
+#pause-btn {
+    background-color: orange;
+    color: white;
+}
+
+#reset-btn {
+    background-color: gray;
+    color: white;
+}
